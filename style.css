@@ -135,7 +135,7 @@ header .navbar ul li a:hover{
 }
 
 #menu{
-    position: fixed;
+    position: fixed; 
     top:2rem; right:2rem;
     background:#333;
     color:aliceblue;
@@ -155,7 +155,7 @@ header .navbar ul li a:hover{
 @media(max-width:991px){
     
     header{
-        left:-20%;
+        left:0%;
           }
     #menu{
         display:block;
@@ -166,7 +166,7 @@ header.toggle{
     left:0%;
 }
 
-@media(max-width:400px){
+@media(max-width:768px){
     
     header{
         width: 100vw;
