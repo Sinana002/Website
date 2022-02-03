@@ -155,7 +155,7 @@ header .navbar ul li a:hover{
 @media(max-width:991px){
     
     header{
-        left:-200%;
+        left:-20%;
           }
     #menu{
         display:block;
@@ -163,7 +163,7 @@ header .navbar ul li a:hover{
 }    
 
 header.toggle{
-    left:20%;
+    left:0%;
 }
 
 @media(max-width:400px){
