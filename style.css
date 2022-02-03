@@ -146,9 +146,9 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-@media (max-width:1200px){
+@media (max-width:700px){
     html{
-        font-size:55%;
+        font-size:50%;
         }
 }
 
@@ -160,6 +160,17 @@ header .navbar ul li a:hover{
     #menu{
         display:block;
     }
+}    
+
+header.toggle{
+    left:0%;
+}
+
+@media(max-width:400px){
+    
+    header{
+        width: 100vw;
+          }
 }    
 
 header.toggle{
