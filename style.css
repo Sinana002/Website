@@ -161,6 +161,10 @@ header .navbar ul li a:hover{
         display:block;
     }
 }    
+
+header.toggle{
+    left:0%;
+}
 .home{
     display: flex;
     justify-content: center;
