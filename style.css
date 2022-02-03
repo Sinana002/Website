@@ -163,7 +163,7 @@ header .navbar ul li a:hover{
 }    
 
 header.toggle{
-    left:0%;
+    left:20%;
 }
 
 @media(max-width:400px){
