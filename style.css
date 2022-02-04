@@ -136,7 +136,7 @@ header .navbar ul li a:hover{
 
 #menu{
     position: fixed; 
-    top:2rem; right:2rem;
+    
     background:#333;
     color:aliceblue;
     cursor: pointer;
@@ -146,7 +146,7 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-@media (max-width:768px){
+@media (max-width:400px){
     html{
         font-size:50%;
         }
@@ -155,7 +155,7 @@ header .navbar ul li a:hover{
 @media(max-width:991px){
     
     header{
-        left:-160%;
+        left:-120%;
           }
     #menu{
         display:block;
@@ -173,8 +173,6 @@ header.toggle{
           }
 }    
 
-header.toggle{
-    left:20%;
 }
 .home{
     display: flex;
